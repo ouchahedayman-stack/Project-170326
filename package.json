@@ -1,0 +1,26 @@
+{
+  "name": "tp5-deployer-api-express",
+  "version": "1.0.0",
+  "description": "TP 5 : Déployer une API Express",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "check": "node --check src/server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "deployment",
+    "tp"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
